@@ -53,15 +53,15 @@ To use this server you need to have an special format on your filesystem.
 
 ## URLs ##
 
-- /updates/latest/:version 
+- **/updates/latest/:version**
 
 This is the URL for Darwin (macOS) applications. Will automatically download the correct files
 
-- /updates/releases/win
+- **/updates/releases/win**
 
 This is the URL of the filesystem to download the windows installers (Squirrel for windows look all the files inside the filesystem and get the RELEASES file to know which version he will use)
 
-- /download/latest/:os?
+- **/download/latest/:os?**
 
 This is a simple URL to use on your webpage so the user will download always the latest version, you could specify the OS in the url (darwin or win) or the server automatically will get that information from the useragent
 
