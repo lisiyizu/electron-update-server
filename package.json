@@ -1,0 +1,30 @@
+{
+  "name": "electron-update-server",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Gonzalo Santomé <santomegonzalo@gmail.com>",
+  "description": "This is an small server to work with squirrel and download the latest version of your electron app",
+  "scripts": {
+    "start": "PORT=1337 NODE_ENV=development node app.js",
+    "production": "PORT=1337 NODE_ENV=production node app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "electron",
+    "squirrel",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santomegonzalo/electron-update-server.git"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "express-useragent": "^0.2.4",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  },
+  "license": "MIT"
+}
