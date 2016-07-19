@@ -81,7 +81,7 @@ If you are using *forever* to run on background the server this is what you need
 
 If you want to contribute with this server will be awesome. So you are welcome :)
 
-- [x] create the server with URLs for Squirrel
-- [x] add a link to download the latest version of the app
+- [x] ~~create the server with URLs for Squirrel~~
+- [x] ~~add a link to download the latest version of the app~~
 - [ ] create a webpage to upload the installers for mac and windows
 - [ ] support Linux
