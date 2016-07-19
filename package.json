@@ -23,8 +23,8 @@
     "express-useragent": "^0.2.4",
     "morgan": "^1.7.0"
   },
-  "devDependencies": {
-    "nodemon": "^1.9.2"
+  "bugs": {
+    "url": "https://github.com/santomegonzalo/electron-update-server/issues"
   },
   "license": "MIT"
 }
