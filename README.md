@@ -1,10 +1,10 @@
 # electron-update-server
 
-Small WebServer to handle the updates for *Electron* apps and Squirrel.
+Small WebServer to handle the updates for **Electron** apps and Squirrel.
 
 ## CONFIG ##
 
-Inside `app.js` you will find a section of *varaibles to config* that you need to *change*.
+Inside `app.js` you will find a section of **varaibles to config** that you need to **change**.
 
 ```javascript
 const localIP           = 'http://localhost';           //local url, could be an IP of your network
@@ -17,7 +17,7 @@ const appInstallerWin   = 'ElectronSetup';              //this is the installer 
 
 To use this server you need to have an special format on your filesystem.
 
-*YourAppName* need to be the same name of what you use in the config *appName*
+**YourAppName** need to be the same name of what you use in the config **appName**
 
 ```
 -- releases
@@ -67,7 +67,7 @@ This is a simple URL to use on your webpage so the user will download always the
 
 ## HOW TO RUN THE SERVER ##
 
-by default the app will use the port *1337*
+by default the app will use the port **1337**
 
 - Local Server: `npm start`
 - Remote Server: `npm run production`
